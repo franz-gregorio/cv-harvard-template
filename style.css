@@ -3,25 +3,41 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    height: 1000px;
 }
 
 hr {
     margin: 10px 20px;
 }
 
+/* Main Container Styles */
+
+.main-container {
+    width: 1000px;
+    min-height: 100vh;
+    background-color: white;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 750px) {
+    .main-container {
+        width: 500px;
+    }
+    .header-details, .cert-name {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 /* HEADER STYLES */
 
 .cv-header {
-    background-color: white;
     text-align: center;
-    position: fixed;
-    top: 0;
-    left: 400px;
-    right: 400px;
-    z-index: 100;
-}
+} 
 
 .header-download {
     display: flex;
@@ -44,13 +60,14 @@ hr {
     cursor: pointer;
 }
 
+
+
 #name {
     margin-bottom: 3px;
 }
 
 .header-details {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -61,20 +78,7 @@ hr {
     margin: 5px 0;
 }
 
-/* Main Container Styles */
 
-.main-container {
-    width: 1120px;
-    min-height: 100vh;
-    background-color: white;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 145px;
-    left: 400px;
-    right: 400px;
-}
 
 /* Work Experience Section */
 
@@ -131,7 +135,6 @@ hr {
 
 .cert-name {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0px 20px;
