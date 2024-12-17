@@ -61,9 +61,9 @@ hr {
     margin: 5px 0;
 }
 
-/* Main Body Styles */
+/* Main Container Styles */
 
-.main {
+.main-container {
     width: 1120px;
     min-height: 100vh;
     background-color: white;
@@ -78,16 +78,19 @@ hr {
 
 /* Work Experience Section */
 
-.work-exp-header {
+.work-exp-header{
     display: inline-block;
     background-color: white;
 }
 
-.work-exp-header h2 {
+.work-exp-header h2, 
+.education-header h2,
+.cert-header h2 {
     margin: 10px 20px;
 }
 
-.work-exp-content {
+.work-exp-content,
+.education-content {
     margin: 0px 20px;
 }
 
@@ -107,4 +110,47 @@ hr {
 
 .roles-details {
     margin-top: 5px;
+}
+
+/* Education Content Styles */
+
+.college-name {
+    margin: 0;
+}
+
+.education-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.education-content {
+    margin-bottom: 10px;
+}
+
+/* Certifications Content Styles */
+
+.cert-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.cert-name p {
+    margin: 0 10px 3px 0;
+    font-size: 18px;
+}
+
+.cert-name span {
+    font-weight: bold;
+}
+
+.cert-content{
+    margin-bottom: 20px;
+}
+
+.cert-valid {
+    font-size: 12px;
+    font-style: italic;
 }

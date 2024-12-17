@@ -7,43 +7,126 @@
     <title>CV Harvard Template</title>
 </head>
 <body>
-    <!-- <main class="main-container"> -->
-        <header class="cv-header">
-            <div class="header-download">
-                <button class="header-download-btn">
-                    Download
-                </button>
-            </div>
-            <h1 id="name">Franz Niño Gregorio</h1>
-            <div class="header-details">
-                <p>1055-A Torres Bugallon St. Tondo, Manila</p>
-                <span>&bull;</span>
-                <p>fna.gregorio@gmail.com</p>
-                <span>&bull;</span>
-                <p>+639651993477</p>
-            </div>
-
+    <header class="cv-header">
+        <div class="header-download">
+            <button class="header-download-btn">
+                Download
+            </button>
+        </div>
+        <h1 id="name">Franz Niño Gregorio</h1>
+        <div class="header-details">
+            <p>1055-A Torres Bugallon St. Tondo, Manila</p>
+            <span>&bull;</span>
+            <p>fna.gregorio@gmail.com</p>
+            <span>&bull;</span>
+            <p>+639651993477</p>
+        </div>
+        <hr>
+    </header>
+    <main class="main-container">
+        <section class="work-exp-header">
+            <h2>Work Experience</h3>
             <hr>
-
-        </header>
-        <div class="main">
-            <section class="work-exp-header">
-                <h2>Work Experience</h3>
-                <hr>
-            </section>
+        </section>
+        <section class="work-exp-container">
             <div class="work-exp-content">
                 <h3 class="company-name">Manulife Philippines</h3>
                 <h4 class="company-position">Platform Engineer</h4>
+                <p class="duration">Oct 2024 - Present</p>
+                <h4 class="roles">Roles & Responsibilities:</h5>
+                <ul class="roles-details">
+                    <li>Azure API Management: Manage API instances, create APIs, operations, and products for developers.</li>
+                    <li>Build and test automation tooling for infrastructure provisioning and management.</li>
+                    <li>JFrog Artifactory: Manage and Administer repositories for developer teams</li>
+                </ul>
+            </div>
+            <div class="work-exp-content">
+                <h3 class="company-name">Aeven Philippines</h3>
+                <h4 class="company-position">Advanced Cloud Engineer</h4>
                 <p class="duration">May 2024 - Oct 2024</p>
                 <h4 class="roles">Roles & Responsibilities:</h5>
                 <ul class="roles-details">
-                    <li>Collaborate with Product and Technology teams to implement tooling and practices that enables business and technology vision.</li>
-                    <li>Build and test automation tooling for infrastructure provisioning and management.</li>
-                    <li>Review, advise, and provide feedback on engineering solutions produced within and outside the team.</li>
+                    <li>Provision, configure, and maintain Azure Kubernetes Service (AKS) clusters.</li>
+                    <li>Troubleshoot and resolve issues related to AKS clusters using Azure Monitor, Grafana, and Kibana.</li>
+                    <li>Implement CI/CD pipelines for automated deployment and updates of containerized applications.</li>
+                    <li>Set up monitoring and logging solutions for AWS EKS using CLoudWatch / Prometheus.</li>
                 </ul>
             </div>
-        </div>
-        
-    <!-- </main> -->
+            <div class="work-exp-content">
+                <h3 class="company-name">Grundfos IS Philippines</h3>
+                <h4 class="company-position">Cloud Engineer</h4>
+                <p class="duration">May 2023 - May 2024</p>
+                <h4 class="roles">Roles & Responsibilities:</h5>
+                <ul class="roles-details">
+                    <li>Container Orchestration: Enable deployment and operation of applications in OpenShift.</li>
+                    <li>OpenShift Management: Install, upgrade, patch, and monitor the OpenShift Container Platform.</li>
+                    <li>Azure API Management: Manage API instances, create APIs, operations, and products for developers.</li>
+                    <li>Infrastructure (DNS): Maintain public and internal DNS entries.</li>
+                </ul>
+            </div>
+            <div class="work-exp-content">
+                <h3 class="company-name">SAS Institute Philippines</h3>
+                <h4 class="company-position">Associate Technical Consultat</h4>
+                <p class="duration">Janurary 2021 - May 2023</p>
+                <h4 class="roles">Roles & Responsibilities:</h5>
+                <ul class="roles-details">
+                    <li>Deployed SAS software packages for SIT, UAT, and Production environments in compliance with IFRS17 standards.</li>
+                    <li>Managed testing, validation, and documentation processes for deployment phases.</li>
+                    <li>Utilized Infrastructure-As-Code principles (Terraform), AWS services (EC2), Kubernetes, Docker, Linux, Jenkins,Git, Python, and Bash scripting.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="education-section">
+            <div class="education-header">
+                <hr>
+                <h2>Education</h3>
+                <hr>
+            </div>
+            <div class="education-content">
+                <h3 class="college-name">
+                    CAP College Philippines
+                </h3>
+                <p>Bachelor's Degree in Information Technology</p>
+                <p>2016-2020</p>
+            </div>
+        </section>
+        <section class="cert-section">
+            <div class="cert-header">
+                <hr>
+                <h2>Certifications</h2>
+                <hr>
+            </div>
+            <div class="cert-content">
+                <div class="cert-name">
+                    <div class="cert-name-details">
+                        <p><span>Amazon Web Services</span> - Certified Solutions Architect Associate</p>
+                    <p class="cert-valid">Validation Number: <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/EP6QQD1K6FEQ1WCL" target="_blank">EP6QQD1K6FEQ1WCL</a></p>
+                    </div>
+                    <p>Sep 2022 - Sep 2025</p>
+                </div>
+                <div class="cert-name">
+                    <div class="cert-name-details">
+                        <p><span>Microsoft Azure</span> - Certified DevOps Engineer Expert</p>
+                        <p class="cert-valid">Credential ID:  <a href="https://learn.microsoft.com/api/credentials/share/en-us/FranzNioGregorio-9420/53D9337253AE7C07?sharingId=E632119A2CCF46EA" target="_blank">53D9337253AE7C07</a></p>
+                    </div>
+                    <p>Jan 2023 - Jan 2025</p>
+                </div>
+                <div class="cert-name">
+                    <div class="cert-name-details">
+                        <p><span>Microsoft Azure</span> - Certified Administrator Associate</p>
+                        <p class="cert-valid">Credential ID:  <a href="https://learn.microsoft.com/api/credentials/share/en-us/FranzNioGregorio-9420/110864C08DB8A28C?sharingId=E632119A2CCF46EA" target="_blank">110864C08DB8A28C</a></p>
+                    </div>
+                    <p>Dec 2022 - Dec 2025</p>
+                </div>
+                <div class="cert-name">
+                    <div class="cert-name-details">
+                        <p><span>Microsoft Azure</span> - Certified Data Engineer Associate</p>
+                        <p class="cert-valid">Credential ID:  <a href="https://learn.microsoft.com/api/credentials/share/en-us/FranzNioGregorio-9420/E1A0F9F6DC1FE9CD?sharingId=E632119A2CCF46EA" target="_blank">E1A0F9F6DC1FE9CD</a></p>
+                    </div>
+                    <p>Jan 2023 - Jan 2026</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
